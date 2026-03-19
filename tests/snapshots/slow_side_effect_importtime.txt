@@ -1,0 +1,3 @@
+import time:        12 |         12 | pkg.slow_module
+import time:         4 |         16 | pkg.entrypoint
+import time:         3 |         19 | pkg

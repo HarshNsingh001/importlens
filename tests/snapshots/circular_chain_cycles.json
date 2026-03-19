@@ -1,0 +1,7 @@
+{
+  "fixture": "circular_chain",
+  "cycles": [
+    ["pkg.a", "pkg.b", "pkg.c", "pkg.a"]
+  ]
+}
+

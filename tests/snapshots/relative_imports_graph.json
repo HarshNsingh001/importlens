@@ -1,0 +1,17 @@
+{
+  "fixture": "relative_imports",
+  "nodes": [
+    "pkg.__init__",
+    "pkg.constants",
+    "pkg.service",
+    "pkg.subpkg.__init__",
+    "pkg.subpkg.helpers"
+  ],
+  "edges": [
+    ["pkg.__init__", "pkg.service"],
+    ["pkg.service", "pkg.subpkg.helpers"],
+    ["pkg.subpkg.__init__", "pkg.subpkg.helpers"],
+    ["pkg.subpkg.helpers", "pkg.constants"]
+  ]
+}
+

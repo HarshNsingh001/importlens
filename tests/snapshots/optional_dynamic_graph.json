@@ -1,0 +1,17 @@
+{
+  "fixture": "optional_dynamic",
+  "nodes": [
+    "pkg.__init__",
+    "pkg.loader",
+    "pkg.backends.__init__",
+    "pkg.backends.default_backend"
+  ],
+  "edges": [
+    ["pkg.__init__", "pkg.loader"],
+    ["pkg.backends.__init__", "pkg.backends.default_backend"]
+  ],
+  "limitations": [
+    "dynamic import via importlib.import_module is intentionally not modeled as a static edge in v1 fixtures"
+  ]
+}
+

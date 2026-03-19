@@ -1,0 +1,2 @@
+BASE_VALUE = "base"
+

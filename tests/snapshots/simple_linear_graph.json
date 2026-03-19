@@ -1,0 +1,13 @@
+{
+  "fixture": "simple_linear",
+  "nodes": [
+    "pkg.__init__",
+    "pkg.alpha",
+    "pkg.beta"
+  ],
+  "edges": [
+    ["pkg.__init__", "pkg.alpha"],
+    ["pkg.alpha", "pkg.beta"]
+  ]
+}
+
