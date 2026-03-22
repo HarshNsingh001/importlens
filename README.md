@@ -38,9 +38,18 @@ This means `importlens` is already credible as a static diagnostics tool, while 
 
 ## Installation
 
+For standard use:
+
+```bash
+pip install importlens
+```
+
+For development and local testing:
+
 ```bash
 python -m venv .venv
-.venv\Scripts\python -m pip install -e .[dev]
+.venv\Scripts\activate
+pip install -e .[dev]
 ```
 
 ## Commands
