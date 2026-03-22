@@ -128,3 +128,7 @@ The CLI should reject:
 - `report` currently supports script and module targets only; package-directory report support is intentionally deferred until runtime profiling support catches up.
 
 For the current support matrix and empirical hardening results, see [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md) and [REAL_REPO_HARDENING.md](REAL_REPO_HARDENING.md).
+
+## License
+
+`importlens` is licensed under the MIT License. See [LICENSE](LICENSE) for details.
